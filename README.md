@@ -3,10 +3,10 @@ IRIS
 
 Python implementation of human eye IRIS Segmentation Algorithm based on Daugman's Integro-Differential Operator.
 
-# 1. Data Set
+# Data Set
 Used data requires permission of provider. Can be [downloaded](http://iris.di.ubi.pt/index_arquivos/Page374.html) after password acquired. There are 3 different ZIP files in UBIRIS.v1 and the used one is consist of 200 x 150 - Grayscale images inside file named 'UBIRIS_200_150_R'.
 
-# 2. Segmentation
+# Segmentation
 Iris contains rich information that is spesific to the person and it is one of the most important biometric approaches that can perform high confidence recognition. There are sill commercial iris recognition systems are using the Daugman algorithm. 
 
 Daugman algorithm:
