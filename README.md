@@ -1,7 +1,7 @@
 IRIS
 ====
 
-Python implementation of human eye IRIS Segmentation Algorithm based on Daugman's Integro-Differential Operator.
+Python implementation of human eye IRIS Segmentation Algorithm based on Daugman's Integro-Differential Operator(Iris edge detection).
 
 # Data Set
 Used data requires permission of provider. Can be [downloaded](http://iris.di.ubi.pt/index_arquivos/Page374.html) after password acquired. There are 3 different ZIP files in UBIRIS.v1 and the used one is consist of 200 x 150 - Grayscale images inside file named 'UBIRIS_200_150_R'.
