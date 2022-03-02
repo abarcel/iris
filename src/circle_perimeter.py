@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import numpy as np
 
 def circle_perimeter(X, Y, R, c_type='half'): #Bresenham Method
