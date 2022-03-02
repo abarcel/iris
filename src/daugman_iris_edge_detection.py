@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 from src.gaussian_kernel import gaussian_kernel
 from src.circle_perimeter import circle_perimeter
 
@@ -48,7 +43,7 @@ class DIED(): #DIED: Daugman Iris Edge Detection
         
         return all_values[all_values[:,2].argsort()].astype(np.int16)
     
-    def result(self):
+    def __call_(self):
         range_ = int(np.min([int(s/2) for s in self.image.shape])*0.40)
         cen_x, cen_y = [int(s/2) for s in self.image.shape]
         
